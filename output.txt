@@ -1,0 +1,16 @@
+================================
+MiniX++ Parser Output
+================================
+Generated: Jan 11 2026
+
+    Declared integer: x
+  [Error recovered at line 5]
+  [Error recovered at line 8]
+
+================================
+Analysis Summary:
+  - Total lines: 11
+  - Errors: 3
+  - Warnings: 2
+  - Status: FAILED
+================================

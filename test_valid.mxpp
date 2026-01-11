@@ -1,0 +1,14 @@
+start
+    intx counter = 0;
+    floatx pi = 3.14;
+    strx message = "Hello MiniX++";
+    
+    ifx (counter < 10) {
+        show("Counter is less than 10");
+    } elsex {
+        show("Counter is 10 or more");
+    }
+    
+    show(message);
+    show("Program completed successfully");
+end

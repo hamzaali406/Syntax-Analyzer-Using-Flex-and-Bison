@@ -1,0 +1,11 @@
+start
+    intx x  // ERROR: Missing semicolon
+    
+    ifx (x > 5  // ERROR: Missing closing parenthesis
+        show("Inside if");
+    }
+    
+    y = 10;  // ERROR: Undeclared variable
+    
+    show("Missing closing"  // ERROR: Missing )
+end

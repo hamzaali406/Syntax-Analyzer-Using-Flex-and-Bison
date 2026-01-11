@@ -1,0 +1,22 @@
+================================
+MiniX++ Error Report
+================================
+Generated: Jan 11 2026
+
+✗ Line 2: syntax error
+   Token: '/'
+   Expected: Valid MiniX++ syntax
+
+✗ Line 6: syntax error
+   Token: '}'
+   Expected: Valid MiniX++ syntax
+
+✗ Line 8: syntax error
+   Token: '/'
+   Expected: Valid MiniX++ syntax
+
+
+================================
+Total Errors: 3
+Total Warnings: 2
+================================
