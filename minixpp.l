@@ -47,7 +47,7 @@ WS      [ \t\r]
 "-"         { return MINUS; }
 "*"         { return MULT; }
 "/"         { return DIVIDE; }
-"="         { return ASSIGN; }  /* THIS IS THE CRITICAL LINE */
+"="         { return ASSIGN; }
 "=="        { return EQ; }
 "!="        { return NE; }
 "<"         { return LT; }
@@ -67,5 +67,6 @@ WS      [ \t\r]
                 /* Return the character itself if not recognized */
                 return yytext[0]; 
             }
+
 
 %%
