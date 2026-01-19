@@ -1,0 +1,10 @@
+start
+    intx x = 5;
+    floatx y = 3.14;
+    
+    ifx (x > 3) {
+        show("x is greater than 3");
+    }
+    
+    show("Program end");
+end
